@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-inline: 15px;
+  color: black;
+  font-family: 'Inter';
+  font-size: 25px;
+  background-color: rgb(15, 15, 15);
+  height: 100Vh;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.box{
+  border-radius: 8px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+#boxText{
+  padding-left: 5px ;
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+}
+
+#buttonAdd{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+ul{
+  margin-top: 60px;
+}
+
+
+ul li{
+  font-size: 20px;
+  text-align: left;
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: rgba(194, 194, 194, 0.267);
+}
+
+ul li.naoRealizada{
+  list-style-type: '☐' ;
+}
+
+ul li.realizada{
+  list-style-type: '☑';
+  color: darkgray;
+  text-decoration: line-through;
+}
+
+button.remove{
+  position: absolute;
+  right: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+select{
+  height: 40px;
+}
+
+.list{
+  right: 30px;
+  position: absolute;
+  margin-top: 10px;
+  text-align: left;
+}
